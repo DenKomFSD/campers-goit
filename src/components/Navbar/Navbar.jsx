@@ -10,11 +10,11 @@ const getNavLinkActive = ({ isActive }) => {
 export default function Navbar() {
   return (
     <header>
-      <nav>
+      <nav className={css.header}>
         <Link to="/">
           <img src={logo} width="136px" height="16px" />
         </Link>
-        <ul>
+        <ul className={css.links}>
           <li>
             <NavLink to="/" className={getNavLinkActive}>
               Home

@@ -1,0 +1,8 @@
+.home {
+  width: 100%;
+  background-image: url("../../assets/bg/Picture.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 260px 805px 260px 64px;
+}
