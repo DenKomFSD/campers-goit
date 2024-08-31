@@ -1,8 +1,22 @@
 .home {
-  width: 100%;
   background-image: url("../../assets/bg/Picture.jpg");
-  background-size: cover;
-  background-position: center;
+
   background-repeat: no-repeat;
-  padding: 260px 805px 260px 64px;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  padding-bottom: 264px;
+  padding-top: 264px;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 64px;
+}
+
+.btn {
+  max-width: 160px;
 }

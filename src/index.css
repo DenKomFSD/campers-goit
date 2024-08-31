@@ -18,17 +18,18 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgb(255, 255, 255);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: rgb(255, 255, 255);
 }
 
 body {
@@ -40,7 +41,10 @@ body {
 }
 
 button {
-  border-radius: 8px;
+  display: block;
+  width: fit-content;
+  padding: 16px 32px;
+  border-radius: 200px;
   border: none;
   padding: 16px 60px;
   font-size: 1em;
@@ -60,7 +64,7 @@ button:hover {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: rgb(255, 255, 255);
   }
   button {
     background-color: #f9f9f9;
